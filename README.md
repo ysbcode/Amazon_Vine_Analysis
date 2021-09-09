@@ -27,7 +27,7 @@ This project analyzes Amazon Vine program and determines if there is a bias towa
 
 ### Deliverable #2
 
-For the second deliverable, we again extracted video game Amazon review datasets and loaded the data into a new GoogleColab notebook using PySpark. We filtered the data to only include games where total reviews received were greater than 20. We then further filtered the data to include games where the proportion of helpful votes to total is greater than or equal to 50%. Finally we divded the dataset into two groups: reviews given as part of the vine program(paid) and reviews given oustide the vide program(unpaid). 
+For the second deliverable, we again extracted video game Amazon review datasets and loaded the data into a new GoogleColab notebook using PySpark. We filtered the data to only include games where total reviews received were greater than 20. We then further filtered the data to include games where the proportion of helpful votes to total is greater than or equal to 50%. Finally we divded the dataset into two groups: reviews given as part of the vine program(paid) and reviews given oustide the vine program(unpaid). 
 Using the two datasets, we compared the ratio of proportion of 5-star reviews to total reviews between reviews obtain from the vine program and reviews outside the vine program. Our Vine Analysis Code for this exercise is also included in this repository.  
 
 ## Result of our analysis
